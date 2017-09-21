@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="106781" started-at="2017-09-17T18:59:03Z" finished-at="2017-09-17T19:00:50Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="106781" started-at="2017-09-17T18:59:03Z" finished-at="2017-09-17T19:00:50Z">
+      <class name="com.mmp.admin_login.LoginTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.mmp.admin_login.LoginTest@64bf3bbf]" name="setUp" is-config="true" duration-ms="11619" started-at="2017-09-17T14:59:03Z" finished-at="2017-09-17T14:59:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="logInWithValid(java.lang.String, java.lang.String)[pri:0, instance:com.mmp.admin_login.LoginTest@64bf3bbf]" name="logInWithValid" duration-ms="11715" started-at="2017-09-17T14:59:14Z" description="validate the Admin LOGIN form with all the valid values in the given fields" data-provider="credentials" finished-at="2017-09-17T14:59:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[samjones]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Samjones123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInWithValid -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:com.mmp.admin_login.LoginTest@64bf3bbf]" name="closeDriver" is-config="true" duration-ms="61" started-at="2017-09-17T14:59:26Z" finished-at="2017-09-17T14:59:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.mmp.admin_login.LoginTest@64bf3bbf]" name="setUp" is-config="true" duration-ms="10475" started-at="2017-09-17T14:59:26Z" finished-at="2017-09-17T14:59:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="logInWithInvalid(java.lang.String, java.lang.String)[pri:1, instance:com.mmp.admin_login.LoginTest@64bf3bbf]" name="logInWithInvalid" duration-ms="1369" started-at="2017-09-17T14:59:37Z" description="validate the Admin LOGIN form with all the invalid values in the given fields" data-provider="credentials" finished-at="2017-09-17T14:59:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[samjones]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInWithInvalid -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:com.mmp.admin_login.LoginTest@64bf3bbf]" name="closeDriver" is-config="true" duration-ms="89" started-at="2017-09-17T14:59:38Z" finished-at="2017-09-17T14:59:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.mmp.admin_login.LoginTest@64bf3bbf]" name="setUp" is-config="true" duration-ms="10425" started-at="2017-09-17T14:59:38Z" finished-at="2017-09-17T14:59:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="logInWithInvalid(java.lang.String, java.lang.String)[pri:1, instance:com.mmp.admin_login.LoginTest@64bf3bbf]" name="logInWithInvalid" duration-ms="1218" started-at="2017-09-17T14:59:49Z" description="validate the Admin LOGIN form with all the invalid values in the given fields" data-provider="credentials" finished-at="2017-09-17T14:59:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[swmod]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Samjones123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInWithInvalid -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:com.mmp.admin_login.LoginTest@64bf3bbf]" name="closeDriver" is-config="true" duration-ms="77" started-at="2017-09-17T14:59:50Z" finished-at="2017-09-17T14:59:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.mmp.admin_login.LoginTest@64bf3bbf]" name="setUp" is-config="true" duration-ms="10435" started-at="2017-09-17T14:59:50Z" finished-at="2017-09-17T15:00:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="logInWithInvalid(java.lang.String, java.lang.String)[pri:1, instance:com.mmp.admin_login.LoginTest@64bf3bbf]" name="logInWithInvalid" duration-ms="1286" started-at="2017-09-17T15:00:00Z" description="validate the Admin LOGIN form with all the invalid values in the given fields" data-provider="credentials" finished-at="2017-09-17T15:00:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[charlotte]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[USA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInWithInvalid -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:com.mmp.admin_login.LoginTest@64bf3bbf]" name="closeDriver" is-config="true" duration-ms="56" started-at="2017-09-17T15:00:02Z" finished-at="2017-09-17T15:00:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.mmp.admin_login.LoginTest@64bf3bbf]" name="setUp" is-config="true" duration-ms="10405" started-at="2017-09-17T15:00:02Z" finished-at="2017-09-17T15:00:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="logInWithBlank()[pri:2, instance:com.mmp.admin_login.LoginTest@64bf3bbf]" name="logInWithBlank" duration-ms="658" started-at="2017-09-17T15:00:12Z" description="validate the Admin LOGIN form with the fields blank" finished-at="2017-09-17T15:00:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInWithBlank -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:com.mmp.admin_login.LoginTest@64bf3bbf]" name="closeDriver" is-config="true" duration-ms="45" started-at="2017-09-17T15:00:13Z" finished-at="2017-09-17T15:00:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.mmp.admin_login.LoginTest@64bf3bbf]" name="setUp" is-config="true" duration-ms="10840" started-at="2017-09-17T15:00:13Z" finished-at="2017-09-17T15:00:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="forgotPwordLink()[pri:3, instance:com.mmp.admin_login.LoginTest@64bf3bbf]" name="forgotPwordLink" duration-ms="1563" started-at="2017-09-17T15:00:24Z" description=" validate the Forgot Password Link." finished-at="2017-09-17T15:00:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgotPwordLink -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:com.mmp.admin_login.LoginTest@64bf3bbf]" name="closeDriver" is-config="true" duration-ms="49" started-at="2017-09-17T15:00:25Z" finished-at="2017-09-17T15:00:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.mmp.admin_login.LoginTest@64bf3bbf]" name="setUp" is-config="true" duration-ms="11327" started-at="2017-09-17T15:00:25Z" finished-at="2017-09-17T15:00:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="forgotPwordValid(java.lang.String, java.lang.String)[pri:4, instance:com.mmp.admin_login.LoginTest@64bf3bbf]" name="forgotPwordValid" duration-ms="1297" started-at="2017-09-17T15:00:37Z" description="validate the Forgot Password functionality with valid values" data-provider="credentials" finished-at="2017-09-17T15:00:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[samjones@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[samjones]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgotPwordValid -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:com.mmp.admin_login.LoginTest@64bf3bbf]" name="closeDriver" is-config="true" duration-ms="102" started-at="2017-09-17T15:00:38Z" finished-at="2017-09-17T15:00:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.mmp.admin_login.LoginTest@64bf3bbf]" name="setUp" is-config="true" duration-ms="10533" started-at="2017-09-17T15:00:38Z" finished-at="2017-09-17T15:00:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="forgotPwordInvalid()[pri:5, instance:com.mmp.admin_login.LoginTest@64bf3bbf]" name="forgotPwordInvalid" duration-ms="1001" started-at="2017-09-17T15:00:49Z" description="validate the Forgot Password functionality with invalid values" finished-at="2017-09-17T15:00:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgotPwordInvalid -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:com.mmp.admin_login.LoginTest@64bf3bbf]" name="closeDriver" is-config="true" duration-ms="77" started-at="2017-09-17T15:00:50Z" finished-at="2017-09-17T15:00:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- com.mmp.admin_login.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
